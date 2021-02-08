@@ -9,7 +9,7 @@ import java.io.IOException;
 public class MainServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("main").forward(req, resp);
+        req.getRequestDispatcher("main.jsp").forward(req, resp);
     }
 
     @Override

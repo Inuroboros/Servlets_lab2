@@ -9,12 +9,12 @@
 </head>
 <body>
     <h1>MAIN</h1>
-    <a href="register.jsp">Registration</a>
-    <a href="login.jsp">Login</a><br>
+    <a href="/register">Registration</a>
+    <a href="/login">Login</a><br>
     <h1>RESULT:</h1><br>
     <%
-        String username = request.getParameter("username");
-        out.println(username);
+        String login = request.getParameter("login");
+        out.println(login);
     %>
 
 </body>
